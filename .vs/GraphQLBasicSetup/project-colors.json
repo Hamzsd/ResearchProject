@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2974030-80cf-48c9-b670-f090ac5eb6d8": {
+      "ProjectGuid": "a2974030-80cf-48c9-b670-f090ac5eb6d8",
+      "DisplayName": "GraphQLBasicSetup",
+      "ColorIndex": 0
+    },
+    "13e8f6ff-7186-44fb-8ce9-f77ca7fe9482": {
+      "ProjectGuid": "13e8f6ff-7186-44fb-8ce9-f77ca7fe9482",
+      "DisplayName": "Demo",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
