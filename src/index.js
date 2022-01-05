@@ -5,7 +5,11 @@ import { ApolloProvider } from 'react-apollo';
 import App from './App';
 
 const client = new ApolloClient({
-  uri: 'https://awesome-node-graphql.herokuapp.com/graphql'
+  uri: 'http://localhost:5107/graphql',
+  fetchOptions: {
+    mode: 'no-cors',
+    credentials: 'include',
+  }
 })
 
 ReactDOM.render(
