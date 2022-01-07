@@ -11,7 +11,7 @@ builder.Services
 
 builder.Services.AddCors();
 var app = builder.Build();
-
+app.UseCors(options => options.WithOrigins("*").AllowAnyMethod().AllowAnyHeader());
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -25,9 +25,6 @@ if (!app.Environment.IsDevelopment())
 
 app
     .UseRouting()
-    .UseCors(
-        options => options.WithOrigins("*").AllowAnyMethod()
-    )
     .UseEndpoints(endpoints =>
     {
         endpoints.MapGraphQL();
