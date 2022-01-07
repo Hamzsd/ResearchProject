@@ -22,9 +22,9 @@ const App = () => {
           <div className="container">
             <h1>Users</h1>
             <div className="row">
-                {data.book.map(books => (
-                  <h2>UserID: {books.title}</h2>
-              ))}
+                
+                  <h2>UserID: {data.book.title}</h2>
+            
             </div>
           </div>
         )
